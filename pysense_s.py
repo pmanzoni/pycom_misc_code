@@ -2,6 +2,14 @@
 # Based on the code "tmpl7.py" by Marco Rainone <mrainone@libero.it>
 #
 
+# Example of use:
+# 
+# import pysense_s
+# a = pysense_s.reader()
+# print(a.get_temp())
+# print(a.get_pressure())
+# print(a.get_altitude())
+
 from machine import I2C
 import time
 
