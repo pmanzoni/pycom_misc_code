@@ -4,7 +4,7 @@ import pycom
 
 import ufun
 
-wifi_ssid = "LOCAL_AP"
+wifi_ssid = "raspiWLAN"
 wifi_passwd = ''
 broker_addr = "test.mosquitto.org"
 
